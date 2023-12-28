@@ -13,7 +13,7 @@
   @media (width <780px) {
     background: url("../../photos//bg-curvy-mobile.svg");
     background-size: cover;
-    background-position: 400% 20%;
+    background-position: 500% 20%;
     background-blend-mode: color-burn;
   }
   

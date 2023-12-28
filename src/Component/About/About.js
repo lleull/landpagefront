@@ -44,16 +44,16 @@ const About = () => {
         </form>
         {err ? <p style={{ color: "red" }}> Email Validation error </p> : ""}
       </div>
-      <img className="aboutlogo" src={logo} alt="ad" />
+      <img className="mylogo" src={logo} alt="ad" />
       <div className="aboutpage">
-        <div>
+    
           <p className="lorem">
             <img className="imgs" src={location} alt="s" />
             lorem any kind of words can be taken here b/c it is the baoit page
             we dont really care about what we are going to say
           </p>
-        </div>
-        <div>
+      
+        <div className="phones">
           <p className="phone">
             {" "}
             <img className="imgs" src={phone} alt="as" />

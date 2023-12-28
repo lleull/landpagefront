@@ -5,12 +5,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(3, 3, 73);
+  background: rgba(1, 1, 29, 0.658);
   @media (width < 780px) {
     flex-direction: column;
-         height: 110vh;
+         height: 150vh;
          margin-top: 150px;
        }
+}
+.mylogo{
+  position: relative;
+  top: 0;
+  bottom: 50px;
+  right: 300px;
 }
 .bgdesk{
   position: absolute;
@@ -46,7 +52,17 @@ h5 {
   color: white;
   margin-bottom: 10px;
 }
-
+.phones{
+  @media (width <780px) {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
 .formp {
   font-size: 13px;
   text-align: center;
@@ -130,7 +146,7 @@ margin-top: 9px;
 }
 .logos {
   display: flex;
-  width: 20%;
+
 justify-content: center;
 align-items: center;
 gap: 20px;
