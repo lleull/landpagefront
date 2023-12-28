@@ -1,0 +1,143 @@
+.homepage {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  background: url("../../photos//bg-curvy-desktop.svg");
+  background-size: cover;
+  background-position: 100% 200%;
+  
+
+  flex-direction: column;
+  @media (width <780px) {
+    background: url("../../photos//bg-curvy-mobile.svg");
+    background-size: cover;
+    background-position: 400% 20%;
+    background-blend-mode: color-burn;
+  }
+  
+  
+@media (width < 780px) {
+height: 600vh;  
+}
+ 
+}
+.illu {
+  width: 300px;
+  height: 200px;
+ 
+}
+.see{
+  text-align: start;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  position: relative;
+  font-style: oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: 10px;
+  gap: 10px;
+  border-bottom: 2px solid green;
+  @media 
+  (width < 780px) {
+    top: 50px;
+  }
+}
+.arrow{
+  width: 30px;
+  height: 30px;
+  @media (width <780px) {
+       
+  }
+}
+.words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.files {
+  color: white;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+p {
+  margin: 0;
+ font-style: oblique;
+  color: rgb(223, 223, 223);
+  font-size: 13px;
+
+  @media (width < 780px) {
+    text-align: center;
+    width: 70%;
+    
+  }
+}
+.startbtn{
+    padding: 10px 40px;
+    color: white;
+    margin-top: 30px;
+    background: green;
+    border-radius: 20px;
+    border: none;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   justify-content: center;
+    align-items: center;
+    z-index: 100;
+    @media (width < 780px) {
+
+           
+         }
+}
+.homecard{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (width < 780px) {
+      width: 90%;
+      gap: 5px;
+      
+    }
+  
+}
+.align{
+    display: flex;
+    width: 60%;
+    gap: 90px;
+    @media (width < 780px) {
+      flex-direction: column;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      gap: 10px;
+
+      
+    }
+}
+.logos{
+    width: 20%;
+    height: 30%;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+.paras{
+    font-size: 12px;
+    text-align: center;
+}
